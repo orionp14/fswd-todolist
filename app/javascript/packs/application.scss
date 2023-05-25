@@ -1,0 +1,81 @@
+@import "bootstrap";
+
+.delete {
+    font-size: small;
+    float: right;
+    background-color: #f14444;
+    border: none;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#create-task {
+    margin-top: 10px;
+}
+
+p {
+    padding: 5px;
+    font-weight: bold;
+}
+
+#create-task {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #E6E9EE;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-button {
+    font-size: small;
+    border: none;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    color: #F9F9F9;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 1rem 0;
+    border: none;
+    background: none;
+    padding-left: 15px;
+    font-size: larger;
+}
+
+.container {
+    width: 50%;
+    background: #F9F9F9;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgb(0 0 0 / 20%);
+    padding: 0.25rem 0;
+    margin-top: 25px;
+}
+
+
+#tasks {
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    display: inline;
+    font-size: large;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
